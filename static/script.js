@@ -1,0 +1,1 @@
+fetch("C:/Users/thuy/Desktop/Nam's Stuff/Scripts/JS/WinNam/mbr/config/boot.json").then(r => r.json()).then(b => document.getElementById('bootinfo').innerHTML = b)
